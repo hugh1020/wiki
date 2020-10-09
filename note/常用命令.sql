@@ -11,6 +11,9 @@
    ggVG        全选
    set nu      显示行数
    num1,num2d  删除从num1到num2的行
+   
+   --##获取当前脚本绝对路径
+   basepath=$(cd `dirname $0`; pwd)
  
  ## mysql竖着输出
  select * from orderexpcarinstant limit 1 \G ;
