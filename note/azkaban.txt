@@ -1,0 +1,21 @@
+  问题： azkaban 怎么指定服务器，执行用户
+
+安装完成。
+启动web，execute服务
+
+首页有四个菜单
+   projects：最重要的部分，创建一个工程，所有flows将在工程中运行。
+   scheduling:显示定时任务
+   executing:显示当前运行的任务
+   history:显示历史运行任务
+   
+ projects 工程
+      flows 作业流
+          job 作业
+  
+  创建单个作业
+  
+  创建作业流：多个作业形成依赖
+  执行失败，整体都会回退
+  
+  
