@@ -1,4 +1,4 @@
-#跳板机
+#dev跳板机
 ip  ：172.18.19.217
 port：20962
 
@@ -22,3 +22,10 @@ port：20962
 > db.orderExpCarReserve.find().pretty().limit(1) -- 1020214403062
 > db.OrderExpCarInstant.find({orderId:"10202044030615049617"}).pretty()
 
+##########################生产环境
+腾讯云的跳板机：172.25.0.3   端口：20962
+阿里云的跳板机：172.18.2.214  端口：20962   
+用户名和密码是你名字拼音
+
+dtmpl_prod_emr_data01   hive集群环境
+172.18.239.251          Azkaban 部署环境

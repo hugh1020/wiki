@@ -37,3 +37,15 @@
  hadoop fs -getmerge 'hdfs:///tmp/sdm_app_web_new_cust_inf_d/sdm_app_nwb_newyear_tmp/*' /home/sdm_app/xx2020/sdm_app_nwb_newyear_tmp.csv
  
  -- -----------获取hive表数据2--------------
+ 但分区表
+ insert overwrite DIRECTORY 'hdfs:///tmp/tmp01'
+ row format delimited fields terminated by '\t' lines terminated by '\n' NULL DEFINED AS '' 
+ select * from driver.ods_driver_company_expdriver where ;
+ 
+ hadoop fs -getmerge 'hdfs:///tmp/tmp01/*' /home/pubuser/xxu/tmp01.csv
+ 
+load data local inpath '/home/pubuser/xxu/tmp01.csv' into table tmp01 part
+
+--------------------------------------------------
+
+ 

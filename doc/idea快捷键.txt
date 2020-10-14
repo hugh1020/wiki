@@ -1,22 +1,6 @@
+取消灰色波浪线： 在setting里面找到 Editor——>Inspections——>General——>Duplicated Code
+
 Ctrl+Alt+S   idea配置
 Ctrl+Alt+L   自动调整格式
 win+alt+ins  生产getter和setter方法,构造器
 Ctrl+Alt+V   自动生产变量
-
-maven       maven设置
-inspections 检查:对spring框架检查过于严格
-git      
-auto        自动导入包
-
-
-        <dependency>
-            <groupId>com.citicbank.gmall</groupId>
-            <artifactId>gmall-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.citicbank.gmall</groupId>
-            <artifactId>gmall-web-util</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
