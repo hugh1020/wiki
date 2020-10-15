@@ -48,4 +48,5 @@ load data local inpath '/home/pubuser/xxu/tmp01.csv' into table tmp01 part
 
 --------------------------------------------------
 
- 
+   alter table p_emp drop if exists partition  (date_day_p='2020-10-13');
+  alter table p_emp add partition (date_day_p='2020-10-13');
